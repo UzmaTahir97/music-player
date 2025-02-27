@@ -1,0 +1,131 @@
+body{
+    background-image:linear-gradient( hotpink , pink , rgb(132, 132, 243));
+}
+.heading-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.container{
+    background-color: rgb(250, 167, 167);
+    opacity: 0.8; 
+    width: 30%;
+    border: 2px solid pink;
+    height:  100vh; 
+    margin: auto;
+    padding: 10px 50px 50px 50px;
+}
+
+.container:hover{
+    border-radius: 14px;
+    box-shadow:  10px 25px 28px rgb(240, 228, 228);
+}
+.top-container{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.menu-icon , .top-icon{
+    color: rgb(247, 60, 163);
+    border:  2px solid white;
+    border-radius: 50%;
+    padding: 14px;
+    background-color: beige;
+} 
+
+.menu-icon:hover , .top-icon:hover{
+    background-image:  linear-gradient( hotpink , pink , rgb(132, 132, 243));
+    box-shadow:  5px 10px 28px  30px rgb(240, 228, 228);
+    border-radius: 50%;
+    padding: 19px;
+    border:  none;
+}
+
+.png{
+    border-radius: 50%;
+    height: 300px;
+    width: 65%;
+    border: 10px solid white; 
+    box-shadow:  5px 10px 28px 30px rgb(240, 228, 228); 
+}
+.png:hover{
+   border: 10px solid  #f025c4;
+}
+
+.singer-png ,.song-name{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.song-name:hover{
+    color: aliceblue;
+   text-decoration: underline;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bottom-icon{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.bottom{
+    border:  2px solid white;
+    border-radius: 50%;
+    padding: 14px;
+    background-color: beige;
+}
+.bottom:hover{
+    background-image:  linear-gradient( hotpink , pink , rgb(132, 132, 243));
+    box-shadow:  5px 10px 28px  30px rgb(240, 228, 228);
+    border-radius: 50%;
+    padding: 19px;
+    border:  none;
+}
+
+.play{
+    position: relative;
+    display: inline-block;
+}
+
+ .play-button{
+    border:  2px solid pink;
+    border-radius: 50%;
+    padding: 18px;
+    background-color: #f025c4;
+} 
+.play-button {
+    transition: visibility 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.pause-button{
+  align-items: center;
+  position: absolute;
+  top: -5px; 
+  left: -0px; 
+  z-index: 1;
+  opacity: 0;
+  background-image:  linear-gradient( hotpink , pink , rgb(132, 132, 243));
+  border-radius: 50%;
+  padding: 9px; 
+}
+
+.play:hover .pause-button {
+    opacity: 1;
+}
+   
+.side-container{
+    font-size: 30px;
+     width: 50%;
+   color: aliceblue;
+ }
+
+.Music{
+text-shadow:  1px  5px  #833772;
+color: #f025c4;
+}
+
+
